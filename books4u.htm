@@ -1,0 +1,276 @@
+<html>
+  <head>
+    <title>Recommendations</title>
+    <style>
+      @import url(include/as_style.css);
+    </style>
+    <meta http-equiv="Content-Language" content="en-us" />
+    <meta http-equiv="Content-Type" content="text/html;charset=windows-1252" />
+    <div class="background"></div>
+  </head>
+  <body class="body" bgcolor="#d4c8ae">
+    <div class="sob-experiment">
+      <div class="sob-text">
+       
+        <h1 style="font-size: 50px">Recommendations 4 You</h1>
+        <h3>Trending Books, New releases and more!</h3>
+        <button class="button"><a href="our_rcmd.htm">Check our picks</a></button>
+      </div>
+    </div>
+    <br>
+    <ul>
+      <li><a class="active" href="mainpage.html" target="_blank">Navigation</a></li>
+      <li><a href="secondpage.html" target="_blank">Home</a></li>
+      <li><a href="bestsellers.html" target="_blank">Best Sellers</a></li>
+      <li><a href="bbrowsebooks.html" target="_blank">Browse Books</a></li>
+      <li><a href="our_rcmd.htm" target="_blank">Our Favorites</a></li>
+    </ul>
+    <p>
+      Every year Barnes and Nobles picks 10 ( sometimes more) books to read. 
+      <p> This year, the qualifications to be part of this list is simply:</p>
+      <p>"he best books are the stories that stay with us long after we read,</p> 
+     <p>the ones we re-read again and again and the ones we pass on to friends."</p>
+    </p>
+    <p> Goodreads on the other hand, allows readers to vote for their favorite book! </p>
+    <p> these are those books, thousands of people voted for them to win, </p>
+    <p>they are that good!</p>
+    
+    
+    <!--these are the filtering buttons, the genres-->
+    <div id="BtnContainer">
+      <button class="button active" onclick="filterSelection('all')">
+        All
+      </button>
+      <button class="button" onclick="filterSelection('horror')">
+        Horror
+      </button>
+      <button class="button" onclick="filterSelection('poetry')">Poetry</button>
+      <button class="button" onclick="filterSelection('journalism')">
+        Journalism
+      </button>
+      <button class="button" onclick="filterSelection('biography')">
+        Biography
+      </button>
+      <button class="button" onclick="filterSelection('fiction')">
+        Fiction
+      </button>
+      <button class="button" onclick="filterSelection('crime')">Crime</button>
+      <button class="button" onclick="filterSelection('thriller')">
+        Thriller
+      </button>
+      <button class="button" onclick="filterSelection('romance')">
+        Romance
+      </button>
+      <button class="button" onclick="filterSelection('fantasy')">
+        Fantasy
+      </button>
+      <button class="button" onclick="filterSelection('comedy')">Comedy</button>
+      <button class="button" onclick="filterSelection('self-help')">
+        Self-help
+      </button>
+    </div>
+
+    <h1>Barnes & Nobles</h1>
+    <!-- start of photos, filtering later-->
+    <div class="row container">
+      <div class="column">
+        <figure class="filterDiv poetry">
+          <img
+            src="images/barnesnnoble/cuwwc.png"
+            alt="Call Us What We Carry by Amanda Gorman"
+          />
+        </figure>
+
+        <figure class="filterDiv journalism">
+          <img
+            src="images/barnesnnoble/1969.png"
+            alt="The 1619 Project: A New Origin Story by Nikole Hannah-Jones"
+          />
+        </figure>
+
+        <figure class="filterDiv biography">
+          <img
+            src="images/barnesnnoble/hmart.png"
+            alt="Crying in H Mart by Michelle Zauner"
+          />
+        </figure>
+
+        <figure class="filterDiv fiction">
+          <img src="images/barnesnnoble/pony.png" alt="Pony by R. J. Palacio" />
+        </figure>
+
+        <figure class="filterDiv fiction">
+          <img
+            src="images/barnesnnoble/ccl.png"
+            alt="Cloud Cuckoo Land by Anthony Doerr"
+          />
+        </figure>
+
+        <figure class="filterDiv thriller-crime-fiction">
+          <img
+            src="images/barnesnnoble/hs.png"
+            alt="Harlem Shuffle by Colson Whitehead"
+          />
+        </figure>
+
+        <figure class="filterDiv biography">
+          <img
+            src="images/barnesnnoble/pm.png"
+            alt="The Lyrics: 1956 to the Present by Paul McCartney"
+          />
+        </figure>
+
+        <figure class="filterDiv romance-fantasy-comedy">
+          <img
+            src="images/barnesnnoble/utwd.png"
+            alt="Under the Whispering Door"
+          />
+        </figure>
+
+        <figure class="filterDiv fiction">
+          <img
+            src="images/barnesnnoble/ts.png"
+            alt="The Sentence by Louise Erdrich"
+          />
+        </figure>
+
+        <figure class="filterDiv self-help">
+          <img
+            src="images/barnesnnoble/wygtt.png"
+            alt="You Will Get through This Night by Daniel Howell"
+          />
+        </figure>
+      </div>
+    </div>
+    <p> 
+      <h1> GoodReads</h1>
+
+    <!-- start of photos, filtering later-->
+    <div class="row container">
+      <div class="column">
+        <figure class="filterDiv ficton">
+          <img
+            src="images/goodreads/tml.png"
+            alt="The Midnight Library by Matt Haig"
+          />
+        </figure>
+
+        <figure class="filterDiv thriller">
+          <img
+            src="images/goodreads/guest.png"
+            alt="The Guest List by  Lucy Foley"
+          />
+        </figure>
+
+        <figure class="filterDiv fiction">
+          <img
+            src="images/goodreads/tvh.png"
+            alt="The Vanishing Half by Brit Bennett"
+          />
+        </figure>
+
+        <figure class="filterDiv fantasy">
+          <img src="images/goodreads/cc.png" alt="House of Earth and Blood by  Sarah J. Maas" />
+        </figure>
+
+        <figure class="filterDiv romance">
+          <img
+            src="images/goodreads/fbna.png"
+            alt="From Blood and Ash by  Jennifer L. Armentrout "
+          />
+        </figure>
+
+        <figure class="filterDiv fiction">
+          <img
+            src="images/goodreads/sleep.png"
+            alt="To Sleep in a Sea of Stars by Christopher Paolini"
+          />
+        </figure>
+
+        <figure class="filterDiv horror">
+          <img
+            src="images/goodreads/mg.png"
+        alt="Mexican Gothic by Silvia Moreno-Garcia   "
+          />
+        </figure>
+
+        <figure class="filterDiv comedy">
+          <img
+            src="images/goodreads/sp.png"
+            alt="Strange Planet by Nathan W. Pyle "
+          />
+        </figure>
+
+        <figure class="filterDiv biography">
+          <img
+            src="images/goodreads/bo.png"
+            alt="A Promised Land by Barack Obama"
+          />
+        </figure>
+
+        <figure class="filterDiv biography">
+          <img
+            src="images/goodreads/caste.png"
+            alt="Caste: The Origins of Our Discontents by  Isabel Wilkerson"
+          />
+        </figure>
+      </div>
+    </div>
+
+    <script>
+      filterSelection("all");
+
+      function filterSelection(keyword) {
+        var imgContainers = document.getElementsByClassName("filterDiv");
+
+        if (keyword == "all") {
+          keyword = "";
+        }
+
+        for (var i = 0; i < imgContainers.length; i++) {
+          w3RemoveClass(imgContainers[i], "show");
+
+          if (imgContainers[i].className.indexOf(keyword) > -1) {
+            w3AddClass(imgContainers[i], "show");
+          }
+        }
+      }
+
+      function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        var arr1 = element.className.split(" ");
+        var arr2 = name.split(" ");
+
+        for (var i = 0; i < arr2.length; i++) {
+          if (arr1.indexOf(arr2[i]) === -1) {
+            element.className += " " + arr2[i];
+          }
+        }
+      }
+
+      function w3RemoveClass(element, name) {
+        var arr1 = element.className.split(" ");
+        var arr2 = name.split(" ");
+
+        for (var i = 0; i < arr2.length; i++) {
+          while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);
+          }
+        }
+
+        element.className = arr1.join(" ");
+      }
+
+      // Add active class to the current button (highlight it)
+      var btnContainer = document.getElementById("BtnContainer");
+      var btns = btnContainer.getElementsByClassName("button");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+      }
+    </script>
+  </body>
+</html>
